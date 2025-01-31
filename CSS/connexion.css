@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+text-decoration: none;
+
+.form-place{
+  grid-column: 2;
+  grid-row: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+form{
+  padding: 20px;
+  background: linear-gradient(#69aaffa3, #9198e595);
+  box-shadow: 5px 5px 15px rgb(0,0,0,0.3);
+  border-radius: 10px;
+}
+form h3{
+  text-align: center;
+  font-size: 20px;
+}
+.name-field{
+  margin: 20px;
+  text-align: center;
+}
+.name-field label{
+display: flex;
+justify-content: center;
+}
+
+input{
+  margin: 5px;
+  font-size: 1em;
+  padding: 4px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 20px rgb(0,0,0,0.3);
+  outline: none;
+  text-align: center;
+  align-content: center;
+  width:500px;
+}
+input[type="submit"]{
+  margin: 15px;
+  width: 50%;
+  background-color: #0536b3;
+  color: white;
+}

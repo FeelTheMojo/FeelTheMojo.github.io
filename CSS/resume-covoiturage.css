@@ -1,0 +1,127 @@
+.info-date{
+    grid-row: 3;
+    grid-column: 1 ;
+    align-content: center;
+    text-align: center;
+}
+
+.resume-travel .map-integration{
+ text-align: center;
+ margin: 30px;
+
+}
+.resume-travel .map-integration iframe{
+    border-radius: 20px;
+
+}
+
+.resume-travel{
+    grid-row: 3;
+    grid-column: 2;
+}
+
+.resume-travel h2{
+    text-align: center;
+}
+.resume-travel h3{
+    text-align: center;
+}
+
+.resume-travel .info-date hr{
+    width: 700px;
+
+}
+.resume-travel .info-date .travel-btn{
+    background: linear-gradient(#0c75ffc8, #606dffe4);
+    box-shadow: 3px 2px 30px  rgb(183, 183, 183);
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 15px 30px;
+    border-radius: 10px;
+    width: 600px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.profile-driver{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    justify-content: space-around;
+    background: linear-gradient(#0c75ff5c, #606dff5b);
+    box-shadow: 5px 5px 30px rgb(191, 191, 191);
+    border-radius: 10px;
+    margin-top: 60px;
+    padding: 20px;
+    height: 120px;
+
+}
+
+
+.profile-driver .profile-driver-info img{
+    height: 30px;
+    width: 30px;
+    text-align: center;
+}
+
+.profile-driver img{
+    object-fit: cover;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+
+
+}
+.profiles-passengers{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    justify-content: space-around;
+    background: linear-gradient(#0c75ff5c, #606dff5b);
+    box-shadow: 5px 5px 30px rgb(191, 191, 191);
+    border-radius: 10px;
+    margin-top: 50px;
+    padding: 20px;
+    height: 150px;
+
+}
+
+.profiles-passengers img{
+    object-fit: cover;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+
+}
+
+.btn-validation{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+
+}
+.travel-btn{
+    display: block;
+    text-align: center;
+    background: linear-gradient(#0c75ffc8, #606dffe4);
+    box-shadow: 3px 2px 30px  rgb(183, 183, 183);
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 15px 30px;
+    border-radius: 10px;
+    width: 300px;
+    text-decoration: none;
+    font-size: 15px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-bottom: 200px;
+
+}
